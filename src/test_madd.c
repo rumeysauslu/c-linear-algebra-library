@@ -12,6 +12,9 @@ int main(){
 
   matrix_sum(*o, *matrix, *matrix1, 2, 2);
   printf("%d %d %d %d",o[0][0], o[0][1], o[1][0], o[1][1]);
+
+  matrix_mult(*o, *matrix, *matrix1, 2, 2, 2);
+  printf("%d %d %d %d",o[0][0], o[0][1], o[1][0], o[1][1]);
   
   return 0;
 }
