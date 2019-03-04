@@ -8,7 +8,7 @@ int matrix_add(int *o, int *a, int *b, int satir, int sutun){
   return 0;
 }
 
-int matrix_sum(int *o, int *a, int *b, int satir, int sutun){
+int matrix_sub(int *o, int *a, int *b, int satir, int sutun){
   int i, j;
   for(i = 0; i < satir; i++){
     for(j = 0; j < sutun; j++){
