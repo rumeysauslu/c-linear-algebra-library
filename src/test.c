@@ -37,6 +37,16 @@ int main(){
     }
   printf("\n \n");
   }
+
+  transpose(*o, *matrix, 2, 2);
+  printf("matrisin transpozu: ");
+  printf("\n");
+  for(i = 0; i < 2; i++){
+    for(j = 0; j < 2; j++){
+      printf(" %d", o[i][j]);
+    }
+  printf("\n \n");
+  }
   
   return 0;
 }

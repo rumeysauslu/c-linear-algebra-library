@@ -1,9 +1,9 @@
 CC = gcc
 AR = ar rcs
 RANLIB = ranlib
-OBJ = matarith.o
+OBJ = matarith.o trans.o
 
-lib: $(OBJ)
+lib: $(OBJ) 
 		$(AR) libmat.a $^
 		$(RANLIB) libmat.a
 
