@@ -18,7 +18,7 @@ int main(){
   printf("\n \n");
   }
 
-  matrix_sum(*o, *matrix, *matrix1, 2, 2);
+  matrix_sub(*o, *matrix, *matrix1, 2, 2);
   printf("çıkarma işlemi sonucu oluşan matris:");
   printf("\n");
   for(i = 0; i < 2; i++){
